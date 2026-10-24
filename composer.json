@@ -1,0 +1,44 @@
+{
+    "name": "omnifund/liberapay",
+    "type": "library",
+    "description": "Omnifund's Liberapay, under any PHP host: an account's public profile read from Liberapay's public.json - patrons counted, weekly income, goal, summary (no key; Liberapay keeps patrons and tiers private).",
+    "keywords": ["donations", "liberapay", "funding", "patrons", "framework-agnostic", "omnifund"],
+    "homepage": "https://github.com/glitchr-studio/omnifund-liberapay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "omniscient/omnifund": "^1.0@dev",
+        "symfony/http-client-contracts": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnifund\\Liberapay\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnifund\\Liberapay\\Tests\\": "Tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-1.x": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
