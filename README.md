@@ -1,6 +1,6 @@
 # omnifund/liberapay
 
-Liberapay for [omniscient/omnifund](https://github.com/glitchr-studio/omnifund), under any PHP
+Liberapay for [omnisense/omnifund](https://github.com/glitchr-omnisense/omnifund), under any PHP
 host: an account's public profile read from `https://liberapay.com/<user>/public.json` - patrons
 counted, what it receives and its goal (by the week, as Liberapay counts), its summary. No key.
 

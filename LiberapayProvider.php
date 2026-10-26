@@ -27,7 +27,7 @@ final class LiberapayProvider implements ProfileInterface
         private readonly string $account,
         private readonly string $language = 'en',
         private readonly string $baseUrl = self::BASE_URL,
-        private readonly string $userAgent = 'omnifund (+https://github.com/glitchr-studio/omnifund)',
+        private readonly string $userAgent = 'omnifund (+https://github.com/glitchr-omnisense/omnifund)',
     ) {
     }
 

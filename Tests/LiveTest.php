@@ -14,7 +14,7 @@ final class LiveTest extends TestCase
 {
     public function testThePublicProfileOfTheLiberapayTeam(): void
     {
-        $profile = (new LiberapayProvider(HttpClient::create(['timeout' => 20]), 'Liberapay', userAgent: 'omnifund-tests/1.0 (+https://github.com/glitchr-studio/omnifund)'))->profile();
+        $profile = (new LiberapayProvider(HttpClient::create(['timeout' => 20]), 'Liberapay', userAgent: 'omnifund-tests/1.0 (+https://github.com/glitchr-omnisense/omnifund)'))->profile();
 
         self::assertSame('Liberapay', $profile->handle);
         self::assertGreaterThan(100, $profile->sponsors);

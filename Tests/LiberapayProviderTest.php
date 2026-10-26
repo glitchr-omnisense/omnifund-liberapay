@@ -31,7 +31,7 @@ final class LiberapayProviderTest extends TestCase
         self::assertSame(['1000.00', Period::Week, 63], [$profile->goal?->amount?->decimal(), $profile->goal?->period, $profile->goal?->percent]);
 
         self::assertSame(['GET', 'https://liberapay.com/Liberapay/public.json'], [$this->requests[0]['method'], $this->requests[0]['url']]);
-        self::assertContains('User-Agent: omnifund (+https://github.com/glitchr-studio/omnifund)', $this->headers(0));
+        self::assertContains('User-Agent: omnifund (+https://github.com/glitchr-omnisense/omnifund)', $this->headers(0));
     }
 
     public function testAnAccountThatHidesWhatItReceives(): void

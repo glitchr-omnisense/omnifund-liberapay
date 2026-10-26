@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Omnifund's Liberapay, under any PHP host: an account's public profile read from Liberapay's public.json - patrons counted, weekly income, goal, summary (no key; Liberapay keeps patrons and tiers private).",
     "keywords": ["donations", "liberapay", "funding", "patrons", "framework-agnostic", "omnifund"],
-    "homepage": "https://github.com/glitchr-studio/omnifund-liberapay",
+    "homepage": "https://github.com/glitchr-omnisense/omnifund-liberapay",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=8.2",
-        "omniscient/omnifund": "^1.0@dev",
+        "omnisense/omnifund": "^1.0@dev",
         "symfony/http-client-contracts": "^3.0"
     },
     "require-dev": {

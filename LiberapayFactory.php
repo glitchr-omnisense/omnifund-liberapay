@@ -29,7 +29,7 @@ final class LiberapayFactory extends ProviderFactory
             'omnifund.required_options' => ['account'],
             'language' => 'en',
             'base_url' => LiberapayProvider::BASE_URL,
-            'user_agent' => 'omnifund (+https://github.com/glitchr-studio/omnifund)',
+            'user_agent' => 'omnifund (+https://github.com/glitchr-omnisense/omnifund)',
         ]);
     }
 
